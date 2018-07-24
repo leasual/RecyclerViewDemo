@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.wesoft.demo.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.wesoft.demo.BottomNavigationViewEx
+                android:id="@+id/bottomNavigation"
+                style="@style/BottomNavigationTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:itemIconTint="@null"
+                app:itemTextColor="@color/btn_main_text_hint_selector"
+                app:menu="@menu/menu_navigation_selector">
+            </com.wesoft.demo.BottomNavigationViewEx>
+
+            <com.wesoft.demo.NoScrollViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottomNavigation" />
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+</layout>

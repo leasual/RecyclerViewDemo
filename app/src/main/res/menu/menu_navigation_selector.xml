@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/news_menu"
+        android:checked="true"
+        android:icon="@drawable/btn_scene_selector"
+        android:title="最新动态" />
+
+    <item
+        android:id="@+id/like_menu"
+        android:icon="@drawable/btn_space_selector"
+        android:title="我的最爱" />
+
+    <item
+        android:id="@+id/kind_menu"
+        android:icon="@drawable/btn_devices_selector"
+        android:title="搜寻分类" />
+
+    <item
+        android:id="@+id/shopping_menu"
+        android:icon="@drawable/btn_profile_selector"
+        android:title="购物车" />
+
+    <item
+        android:id="@+id/me_menu"
+        android:icon="@drawable/btn_profile_selector"
+        android:title="我的账户" />
+
+</menu>

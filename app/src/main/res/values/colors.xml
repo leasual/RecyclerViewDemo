@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color_light_gray">#838383</color>
+    <color name="navigation_text_normal_color">#787878</color>
+    <color name="navigation_text_pressed_color">#3cb9e1</color>
+</resources>
