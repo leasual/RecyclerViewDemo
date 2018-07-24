@@ -4,4 +4,4 @@
 
 效果如下：
 
-![https://github.com/leasual/RecyclerViewDemo/blob/master/ezgif.com-crop.gif]
+![image](https://github.com/leasual/RecyclerViewDemo/blob/master/ezgif.com-crop.gif)
